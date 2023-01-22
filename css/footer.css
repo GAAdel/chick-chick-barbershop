@@ -1,0 +1,26 @@
+.footer__panel {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  margin-bottom: 40px;
+  border-top: 1px solid #BFBDB2;
+}
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__copyright {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0 0 24px;
+}
+
+@media (max-width: 768px) {
+  .footer__panel {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
